@@ -30,6 +30,17 @@ import GradientOverlay from "../components/GradientOverlay.astro";
 <style is:global>
 	@import "tailwindcss";
 	@import "@midudev/tailwind-animations";
+	@font-face {
+		font-family: "Rampart One";
+		src: url("/fonts/rampartone-regular.woff2") format("woff2");
+		font-weight: bold;
+		font-style: normal;
+		font-display: swap;
+	}
+
+	body {
+		font-family: "Rampart One", sans-serif;
+	}
 </style>
 <style>
 	html,
